@@ -11,7 +11,10 @@ const config = {
 
   // GitHub pages deployment config.
   organizationName: 'aimanhanif321', // Replace with your GitHub org/user name
-  projectName: 'AI-Humanoid-Robotics-Book', // Replace with your repository name
+  projectName: 'AI-Humanoid-Robotics-Book',
+  trailingSlash: false,
+  deploymentBranch: 'gh-pages',
+ // Replace with your repository name
 
   presets: [
     [
