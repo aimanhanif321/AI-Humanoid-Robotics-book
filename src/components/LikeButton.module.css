@@ -1,0 +1,19 @@
+.likeButtonContainer {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.likeButton {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.likeButton:hover {
+  background-color: var(--ifm-color-primary-dark);
+}

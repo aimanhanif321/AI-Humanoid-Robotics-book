@@ -1,0 +1,347 @@
+/* Landing Page Layout */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.section {
+  padding: 5rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.sectionAlternate {
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 3rem;
+  color: var(--ifm-color-primary-darkest);
+  position: relative;
+  display: inline-block;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.sectionTitle::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 4px;
+  background: var(--ifm-color-primary);
+  border-radius: 2px;
+}
+
+/* Hero Section */
+.heroSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80vh;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lightest) 0%, #ffffff 100%);
+  position: relative;
+}
+
+.heroContent {
+  flex: 1;
+  max-width: 600px;
+  z-index: 10;
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: var(--ifm-color-primary-darkest);
+  animation: fadeUp 0.8s ease-out;
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  animation: fadeUp 0.8s ease-out 0.2s backwards;
+}
+
+.heroButtons {
+  display: flex;
+  gap: 1rem;
+  animation: fadeUp 0.8s ease-out 0.4s backwards;
+}
+
+.heroImage {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  animation: fadeIn 1s ease-out 0.5s backwards;
+}
+
+.floatingCard {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  animation: float 6s ease-in-out infinite;
+  max-width: 400px;
+}
+
+.floatingCard img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* About Section */
+.aboutContent {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.aboutText {
+  flex: 1;
+}
+
+.aboutText p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+}
+
+.aboutImage {
+  flex: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  transform: perspective(1000px) rotateY(-5deg);
+  transition: transform 0.3s ease;
+}
+
+.aboutImage:hover {
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.aboutImage img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Services Section */
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.serviceCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+  text-align: center;
+}
+
+.serviceCard:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.serviceIcon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.serviceTitle {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary-darker);
+}
+
+.serviceDesc {
+  color: var(--ifm-color-emphasis-600);
+}
+
+/* Testimonials Section */
+.testimonialsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.testimonialCard {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.testimonialQuote {
+  font-size: 1.1rem;
+  font-style: italic;
+  color: var(--ifm-color-emphasis-700);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.testimonialAuthor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.authorAvatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.authorInfo h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: var(--ifm-color-primary-dark);
+}
+
+.authorInfo span {
+  font-size: 0.9rem;
+  color: var(--ifm-color-emphasis-500);
+}
+
+/* Contact Section */
+.contactContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  background: white;
+  padding: 3rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+}
+
+.contactInfo h3, .contactForm h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-color-primary-darkest);
+}
+
+.infoItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.infoIcon {
+  color: var(--ifm-color-primary);
+  font-size: 1.5rem;
+  margin-top: 0.2rem;
+}
+
+.formGroup {
+  margin-bottom: 1.5rem;
+}
+
+.formLabels {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-700);
+}
+
+.formInput, .formTextarea {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.formInput:focus, .formTextarea:focus {
+  outline: none;
+  border-color: var(--ifm-color-primary);
+  box-shadow: 0 0 0 3px var(--ifm-color-primary-lightest);
+}
+
+/* Responsive */
+@media (max-width: 996px) {
+  .heroSection {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding-top: 2rem;
+  }
+  
+  .heroContent {
+    max-width: 100%;
+  }
+  
+  .heroButtons {
+    justify-content: center;
+  }
+  
+  .aboutContent {
+    flex-direction: column;
+  }
+  
+  .contactContainer {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .sectionTitle {
+    font-size: 2rem;
+  }
+}
+
+/* Animations */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes float {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(-15px);}
+  100% {transform: translateY(0px);}
+}

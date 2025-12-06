@@ -1,0 +1,115 @@
+/**
+ * Any CSS you add here will be applied to all pages of your Docusaurus site.
+ */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@700;900&display=swap');
+
+:root {
+  /* Modern Color Palette */
+  --ifm-color-primary: #0066CC; /* Deep Modern Blue */
+  --ifm-color-primary-dark: #005bb7;
+  --ifm-color-primary-darker: #0056ad;
+  --ifm-color-primary-darkest: #00478e;
+  --ifm-color-primary-light: #2684e5;
+  --ifm-color-primary-lighter: #3992f2;
+  --ifm-color-primary-lightest: #6db3ff;
+  
+  /* Text & Background */
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Outfit', sans-serif;
+  
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #1c1e21;
+  --ifm-hover-overlay: rgba(0, 0, 0, 0.05);
+
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Shadows for depth */
+  --shadow-sm: 0 1px 2px 0 rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0,0,0,0.1), 0 2px 4px -1px rgba(0,0,0,0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+}
+
+/* Dark Mode Overrides */
+html[data-theme='dark'] {
+  --ifm-color-primary: #3992f2; /* Brighter Blue for Dark Mode */
+  --ifm-color-primary-dark: #2178d1;
+  --ifm-color-primary-darker: #1f71c5;
+  --ifm-color-primary-darkest: #1a5ea2;
+  --ifm-color-primary-light: #52a2f6;
+  --ifm-color-primary-lighter: #5faaf7;
+  --ifm-color-primary-lightest: #85c2fa;
+  
+  --ifm-background-color: #121212; /* Deep Black/Grey */
+}
+
+/* Global Reset & Typography */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--ifm-heading-font-family);
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Button Modernization */
+.button {
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  letter-spacing: 0.01em;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button--secondary {
+  background: #f3f4f6;
+  color: #1f2937;
+  border-color: transparent;
+}
+
+.button--secondary:hover {
+  background: #e5e7eb;
+}
+
+/* Card Modernization */
+.card {
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 12px;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-4px);
+}
+
+/* Navigation Bar enhancement */
+.navbar {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+html[data-theme='dark'] .navbar {
+  background-color: rgba(18, 18, 18, 0.95);
+  border-bottom: 1px solid #303030;
+}
+
