@@ -4,7 +4,7 @@ const config = {
   title: 'AI-Humanoid Robotics Book',
   tagline: 'Foundations and Advanced Concepts',
   url: 'https://aimanhanif321.github.io', // Replace with your actual URL
-  baseUrl: '/AI-Humanoid-Robotics-Book/',
+  baseUrl: "/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
