@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(bash:*)",
+      "Bash(git fetch:*)",
+      "Bash(ls:*)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1:*)",
+      "Bash(git checkout:*)",
+      "Bash(mkdir:*)",
+      "Bash(.specify/scripts/bash/create-phr.sh:*)",
+      "Bash(powershell:*)",
+      "Bash(git rev-parse:*)",
+      "Bash(npx create-docusaurus@latest:*)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

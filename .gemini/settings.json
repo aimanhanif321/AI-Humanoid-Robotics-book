@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "github": {
+      "command": "",
+      "args": [
+        "npx",
+        "@modelcontextprotocol/mcp-server-github@latest"
+      ]
+    }
+  }
+}
