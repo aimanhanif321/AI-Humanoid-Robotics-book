@@ -16,7 +16,8 @@ function ChatbotInterface() {
 
       try {
         const response = await fetch(
-          `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/chatbot/query`,
+          // `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/v1/chatbot/query`,
+          'https://backend-kohl-mu-48.vercel.app/api/v1/chatbot/query',
           {
             method: 'POST',
             headers: {
