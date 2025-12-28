@@ -1,0 +1,29 @@
+{
+  "id": "part2-ros2/chapter3-ros2-architecture",
+  "title": "ROS 2 Architecture",
+  "description": "Understand ROS 2’s communication model and recognize ROS 2 as the nervous system of a robot.",
+  "source": "@site/docs/part2-ros2/chapter3-ros2-architecture.mdx",
+  "sourceDirName": "part2-ros2",
+  "slug": "/part2-ros2/chapter3-ros2-architecture",
+  "permalink": "/docs/part2-ros2/chapter3-ros2-architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part2-ros2/chapter3-ros2-architecture.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "title": "ROS 2 Architecture",
+    "description": "Understand ROS 2’s communication model and recognize ROS 2 as the nervous system of a robot.",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robotics Foundations",
+    "permalink": "/docs/part1-foundations/chapter2-robotics-foundations"
+  },
+  "next": {
+    "title": "Robot Models & URDF",
+    "permalink": "/docs/part2-ros2/chapter4-robot-models-urdf"
+  }
+}

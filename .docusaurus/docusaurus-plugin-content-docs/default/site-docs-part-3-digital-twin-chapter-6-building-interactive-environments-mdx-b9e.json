@@ -1,0 +1,29 @@
+{
+  "id": "part3-digital-twin/chapter6-building-interactive-environments",
+  "title": "Building Interactive Environments",
+  "description": "Understand scene design for humanoid tasks and prepare for later VLA demonstrations.",
+  "source": "@site/docs/part3-digital-twin/chapter6-building-interactive-environments.mdx",
+  "sourceDirName": "part3-digital-twin",
+  "slug": "/part3-digital-twin/chapter6-building-interactive-environments",
+  "permalink": "/docs/part3-digital-twin/chapter6-building-interactive-environments",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part3-digital-twin/chapter6-building-interactive-environments.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "title": "Building Interactive Environments",
+    "description": "Understand scene design for humanoid tasks and prepare for later VLA demonstrations.",
+    "sidebar_position": 6
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Simulation Fundamentals",
+    "permalink": "/docs/part3-digital-twin/chapter5-simulation-fundamentals"
+  },
+  "next": {
+    "title": "Isaac Sim",
+    "permalink": "/docs/part4-isaac/chapter7-isaac-sim"
+  }
+}

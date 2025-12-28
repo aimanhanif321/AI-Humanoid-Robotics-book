@@ -1,0 +1,29 @@
+{
+  "id": "part1-foundations/chapter1-what-is-physical-ai",
+  "title": "What Is Physical AI?",
+  "description": "Understand the definition and motivation behind Physical AI, and recognize why humanoid robots require intelligence aligned with the physical world.",
+  "source": "@site/docs/part1-foundations/chapter1-what-is-physical-ai.mdx",
+  "sourceDirName": "part1-foundations",
+  "slug": "/part1-foundations/chapter1-what-is-physical-ai",
+  "permalink": "/docs/part1-foundations/chapter1-what-is-physical-ai",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part1-foundations/chapter1-what-is-physical-ai.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "What Is Physical AI?",
+    "description": "Understand the definition and motivation behind Physical AI, and recognize why humanoid robots require intelligence aligned with the physical world.",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Book Introduction",
+    "permalink": "/docs/intro"
+  },
+  "next": {
+    "title": "Robotics Foundations",
+    "permalink": "/docs/part1-foundations/chapter2-robotics-foundations"
+  }
+}

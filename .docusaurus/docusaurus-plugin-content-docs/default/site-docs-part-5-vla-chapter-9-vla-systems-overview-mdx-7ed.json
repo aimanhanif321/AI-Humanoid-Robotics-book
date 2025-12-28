@@ -1,0 +1,29 @@
+{
+  "id": "part5-vla/chapter9-vla-systems-overview",
+  "title": "VLA Systems Overview",
+  "description": "Understand the foundational concepts of Vision-Language-Action (VLA) systems and their role in connecting AI to robot actions.",
+  "source": "@site/docs/part5-vla/chapter9-vla-systems-overview.mdx",
+  "sourceDirName": "part5-vla",
+  "slug": "/part5-vla/chapter9-vla-systems-overview",
+  "permalink": "/docs/part5-vla/chapter9-vla-systems-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part5-vla/chapter9-vla-systems-overview.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "VLA Systems Overview",
+    "description": "Understand the foundational concepts of Vision-Language-Action (VLA) systems and their role in connecting AI to robot actions.",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac ROS & Navigation",
+    "permalink": "/docs/part4-isaac/chapter8-isaac-ros-navigation"
+  },
+  "next": {
+    "title": "Capstone Pipeline Overview",
+    "permalink": "/docs/part5-vla/chapter10-capstone-pipeline-overview"
+  }
+}

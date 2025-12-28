@@ -1,0 +1,29 @@
+{
+  "id": "part5-vla/chapter10-capstone-pipeline-overview",
+  "title": "Capstone Pipeline Overview",
+  "description": "Gain a high-level understanding of a complete VLA pipeline, from voice input to robot manipulation.",
+  "source": "@site/docs/part5-vla/chapter10-capstone-pipeline-overview.mdx",
+  "sourceDirName": "part5-vla",
+  "slug": "/part5-vla/chapter10-capstone-pipeline-overview",
+  "permalink": "/docs/part5-vla/chapter10-capstone-pipeline-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part5-vla/chapter10-capstone-pipeline-overview.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Capstone Pipeline Overview",
+    "description": "Gain a high-level understanding of a complete VLA pipeline, from voice input to robot manipulation.",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "VLA Systems Overview",
+    "permalink": "/docs/part5-vla/chapter9-vla-systems-overview"
+  },
+  "next": {
+    "title": "Hardware Overview",
+    "permalink": "/docs/part6-hardware/chapter11-hardware-overview"
+  }
+}

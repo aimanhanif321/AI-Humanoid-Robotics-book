@@ -1,0 +1,29 @@
+{
+  "id": "part1-foundations/chapter2-robotics-foundations",
+  "title": "Robotics Foundations",
+  "description": "Understand how physical systems perceive and act, and establish the mental model needed for later modules.",
+  "source": "@site/docs/part1-foundations/chapter2-robotics-foundations.mdx",
+  "sourceDirName": "part1-foundations",
+  "slug": "/part1-foundations/chapter2-robotics-foundations",
+  "permalink": "/docs/part1-foundations/chapter2-robotics-foundations",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part1-foundations/chapter2-robotics-foundations.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Robotics Foundations",
+    "description": "Understand how physical systems perceive and act, and establish the mental model needed for later modules.",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "What Is Physical AI?",
+    "permalink": "/docs/part1-foundations/chapter1-what-is-physical-ai"
+  },
+  "next": {
+    "title": "ROS 2 Architecture",
+    "permalink": "/docs/part2-ros2/chapter3-ros2-architecture"
+  }
+}

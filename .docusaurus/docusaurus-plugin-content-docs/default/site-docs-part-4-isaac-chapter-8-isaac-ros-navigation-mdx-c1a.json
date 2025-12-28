@@ -1,0 +1,29 @@
+{
+  "id": "part4-isaac/chapter8-isaac-ros-navigation",
+  "title": "Isaac ROS & Navigation",
+  "description": "Learn how Isaac ROS modules, including VSLAM and Nav2, contribute to robot mapping, localization, and navigation.",
+  "source": "@site/docs/part4-isaac/chapter8-isaac-ros-navigation.mdx",
+  "sourceDirName": "part4-isaac",
+  "slug": "/part4-isaac/chapter8-isaac-ros-navigation",
+  "permalink": "/docs/part4-isaac/chapter8-isaac-ros-navigation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part4-isaac/chapter8-isaac-ros-navigation.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "title": "Isaac ROS & Navigation",
+    "description": "Learn how Isaac ROS modules, including VSLAM and Nav2, contribute to robot mapping, localization, and navigation.",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Isaac Sim",
+    "permalink": "/docs/part4-isaac/chapter7-isaac-sim"
+  },
+  "next": {
+    "title": "VLA Systems Overview",
+    "permalink": "/docs/part5-vla/chapter9-vla-systems-overview"
+  }
+}

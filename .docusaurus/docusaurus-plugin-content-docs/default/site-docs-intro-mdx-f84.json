@@ -1,0 +1,25 @@
+{
+  "id": "intro",
+  "title": "Book Introduction",
+  "description": "This book is designed to provide a comprehensive understanding of Physical AI, with a special focus on humanoid robotics. Whether you're a student, researcher, or enthusiast, you'll find foundational concepts and advanced topics to deepen your knowledge.",
+  "source": "@site/docs/intro.mdx",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/docs/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/intro.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "intro",
+    "title": "Book Introduction",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "What Is Physical AI?",
+    "permalink": "/docs/part1-foundations/chapter1-what-is-physical-ai"
+  }
+}
