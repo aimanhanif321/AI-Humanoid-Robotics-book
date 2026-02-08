@@ -96,6 +96,7 @@ const config = {
             position: 'left',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/chatbot', label: 'Chatbot', position: 'left'},
           {
             href: 'https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book', // Replace with your repo
             label: 'GitHub',
