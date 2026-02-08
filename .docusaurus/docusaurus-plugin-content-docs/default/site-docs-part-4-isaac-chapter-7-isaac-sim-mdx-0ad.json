@@ -1,0 +1,29 @@
+{
+  "id": "part4-isaac/chapter7-isaac-sim",
+  "title": "Isaac Sim",
+  "description": "Understand how Isaac Sim is used for photorealistic rendering, domain randomization, and synthetic data generation.",
+  "source": "@site/docs/part4-isaac/chapter7-isaac-sim.mdx",
+  "sourceDirName": "part4-isaac",
+  "slug": "/part4-isaac/chapter7-isaac-sim",
+  "permalink": "/docs/part4-isaac/chapter7-isaac-sim",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part4-isaac/chapter7-isaac-sim.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Isaac Sim",
+    "description": "Understand how Isaac Sim is used for photorealistic rendering, domain randomization, and synthetic data generation.",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building Interactive Environments",
+    "permalink": "/docs/part3-digital-twin/chapter6-building-interactive-environments"
+  },
+  "next": {
+    "title": "Isaac ROS & Navigation",
+    "permalink": "/docs/part4-isaac/chapter8-isaac-ros-navigation"
+  }
+}

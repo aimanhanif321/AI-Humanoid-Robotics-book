@@ -1,0 +1,38 @@
+{
+  "permalink": "/blog/welcome",
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/blog/welcome.md",
+  "source": "@site/blog/welcome.md",
+  "title": "Welcome to the AI-Humanoid Robotics Book!",
+  "description": "Welcome to the official blog for the AI-Humanoid Robotics Book! We're excited to share insights, updates, and discussions on the fascinating world where artificial intelligence meets humanoid robotics.",
+  "date": "2025-12-12T20:53:51.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "welcome",
+      "permalink": "/blog/tags/welcome"
+    },
+    {
+      "inline": true,
+      "label": "robotics",
+      "permalink": "/blog/tags/robotics"
+    },
+    {
+      "inline": true,
+      "label": "AI",
+      "permalink": "/blog/tags/ai"
+    }
+  ],
+  "readingTime": 0.17,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "welcome",
+    "title": "Welcome to the AI-Humanoid Robotics Book!",
+    "tags": [
+      "welcome",
+      "robotics",
+      "AI"
+    ]
+  },
+  "unlisted": false
+}

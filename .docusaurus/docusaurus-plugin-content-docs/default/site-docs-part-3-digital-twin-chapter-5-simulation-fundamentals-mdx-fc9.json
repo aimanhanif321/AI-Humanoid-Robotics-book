@@ -1,0 +1,29 @@
+{
+  "id": "part3-digital-twin/chapter5-simulation-fundamentals",
+  "title": "Simulation Fundamentals",
+  "description": "Understand the role of physics-based simulation and know how sensors are digitally represented.",
+  "source": "@site/docs/part3-digital-twin/chapter5-simulation-fundamentals.mdx",
+  "sourceDirName": "part3-digital-twin",
+  "slug": "/part3-digital-twin/chapter5-simulation-fundamentals",
+  "permalink": "/docs/part3-digital-twin/chapter5-simulation-fundamentals",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part3-digital-twin/chapter5-simulation-fundamentals.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "title": "Simulation Fundamentals",
+    "description": "Understand the role of physics-based simulation and know how sensors are digitally represented.",
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Robot Models & URDF",
+    "permalink": "/docs/part2-ros2/chapter4-robot-models-urdf"
+  },
+  "next": {
+    "title": "Building Interactive Environments",
+    "permalink": "/docs/part3-digital-twin/chapter6-building-interactive-environments"
+  }
+}

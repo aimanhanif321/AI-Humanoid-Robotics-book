@@ -1,0 +1,25 @@
+{
+  "id": "part7-conclusion/chapter12-review-next-steps",
+  "title": "Review & Next Steps",
+  "description": "Review the book's content and be directed towards further learning and hands-on implementation.",
+  "source": "@site/docs/part7-conclusion/chapter12-review-next-steps.mdx",
+  "sourceDirName": "part7-conclusion",
+  "slug": "/part7-conclusion/chapter12-review-next-steps",
+  "permalink": "/docs/part7-conclusion/chapter12-review-next-steps",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part7-conclusion/chapter12-review-next-steps.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Review & Next Steps",
+    "description": "Review the book's content and be directed towards further learning and hands-on implementation.",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Hardware Overview",
+    "permalink": "/docs/part6-hardware/chapter11-hardware-overview"
+  }
+}

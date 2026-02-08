@@ -1,0 +1,93 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1-foundations/chapter1-what-is-physical-ai",
+              "path": "/docs/part1-foundations/chapter1-what-is-physical-ai",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part1-foundations/chapter2-robotics-foundations",
+              "path": "/docs/part1-foundations/chapter2-robotics-foundations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2-ros2/chapter3-ros2-architecture",
+              "path": "/docs/part2-ros2/chapter3-ros2-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part2-ros2/chapter4-robot-models-urdf",
+              "path": "/docs/part2-ros2/chapter4-robot-models-urdf",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3-digital-twin/chapter5-simulation-fundamentals",
+              "path": "/docs/part3-digital-twin/chapter5-simulation-fundamentals",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part3-digital-twin/chapter6-building-interactive-environments",
+              "path": "/docs/part3-digital-twin/chapter6-building-interactive-environments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4-isaac/chapter7-isaac-sim",
+              "path": "/docs/part4-isaac/chapter7-isaac-sim",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part4-isaac/chapter8-isaac-ros-navigation",
+              "path": "/docs/part4-isaac/chapter8-isaac-ros-navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5-vla/chapter10-capstone-pipeline-overview",
+              "path": "/docs/part5-vla/chapter10-capstone-pipeline-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part5-vla/chapter9-vla-systems-overview",
+              "path": "/docs/part5-vla/chapter9-vla-systems-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part6-hardware/chapter11-hardware-overview",
+              "path": "/docs/part6-hardware/chapter11-hardware-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "part7-conclusion/chapter12-review-next-steps",
+              "path": "/docs/part7-conclusion/chapter12-review-next-steps",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

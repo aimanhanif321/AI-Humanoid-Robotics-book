@@ -1,0 +1,29 @@
+{
+  "id": "part2-ros2/chapter4-robot-models-urdf",
+  "title": "Robot Models & URDF",
+  "description": "Ability to interpret a robot model and prepare for simulation and Isaac integration.",
+  "source": "@site/docs/part2-ros2/chapter4-robot-models-urdf.mdx",
+  "sourceDirName": "part2-ros2",
+  "slug": "/part2-ros2/chapter4-robot-models-urdf",
+  "permalink": "/docs/part2-ros2/chapter4-robot-models-urdf",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part2-ros2/chapter4-robot-models-urdf.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "title": "Robot Models & URDF",
+    "description": "Ability to interpret a robot model and prepare for simulation and Isaac integration.",
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "ROS 2 Architecture",
+    "permalink": "/docs/part2-ros2/chapter3-ros2-architecture"
+  },
+  "next": {
+    "title": "Simulation Fundamentals",
+    "permalink": "/docs/part3-digital-twin/chapter5-simulation-fundamentals"
+  }
+}

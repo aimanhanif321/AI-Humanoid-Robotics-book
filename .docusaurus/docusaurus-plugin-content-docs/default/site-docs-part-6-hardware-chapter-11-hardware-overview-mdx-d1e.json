@@ -1,0 +1,29 @@
+{
+  "id": "part6-hardware/chapter11-hardware-overview",
+  "title": "Hardware Overview",
+  "description": "An introduction to the types of hardware that support Physical AI workflows, including workstations, Jetson kits, and various sensors.",
+  "source": "@site/docs/part6-hardware/chapter11-hardware-overview.mdx",
+  "sourceDirName": "part6-hardware",
+  "slug": "/part6-hardware/chapter11-hardware-overview",
+  "permalink": "/docs/part6-hardware/chapter11-hardware-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/aimanhanif321/AI-Humanoid-Robotics-Book/tree/main/docs/part6-hardware/chapter11-hardware-overview.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Hardware Overview",
+    "description": "An introduction to the types of hardware that support Physical AI workflows, including workstations, Jetson kits, and various sensors.",
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Capstone Pipeline Overview",
+    "permalink": "/docs/part5-vla/chapter10-capstone-pipeline-overview"
+  },
+  "next": {
+    "title": "Review & Next Steps",
+    "permalink": "/docs/part7-conclusion/chapter12-review-next-steps"
+  }
+}
