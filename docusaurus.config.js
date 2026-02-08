@@ -3,7 +3,7 @@
 const config = {
   title: 'AI-Humanoid Robotics Book',
   tagline: 'Foundations and Advanced Concepts',
-  url: 'https://aimanhanif321.github.io', // Replace with your actual URL
+  url: 'https://ai-humanoid-robotics-book-two.vercel.app',
   baseUrl: "/",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
